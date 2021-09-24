@@ -1,0 +1,11 @@
+body{
+	text-align: center;
+}
+
+#aboutStyle{
+	font-size: 13px;
+	position: fixed;
+       text-align: center;
+       bottom: 5px;
+       width: 100%;
+}
