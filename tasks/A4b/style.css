@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+h1{
+    font-size: 40px;
+	text-align: center;
+    border-style: dotted;
+}
+
+p{
+    font-size: 15px;
+    background-color: honeydew;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: red;
+    width: 200px;
+}
+
+#container{
+    padding: 10px;
+}
+
+#float{
+    width: 15%;
+    float: left;
+    padding: 5px;
+}
+
+#aboutStyle{
+	font-size: 13px;
+	position: fixed;
+       text-align: center;
+       bottom: 5px;
+       width: 100%;
+}
