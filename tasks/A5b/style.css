@@ -1,5 +1,8 @@
 body{
     text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -17,67 +20,39 @@ p{
     border-style: solid;
     height: 500px;
     width: 400px;
+    color: white;
 }
 
-#header{
-    position: relative;
-    border-style: solid;
-    border-width: 1px;
-    width: 100%;
-    height: 10%;
+.header{
+    background-color: rgb(96, 96, 96);
 }
 
-#nav{
-    top: 1%;
-    position: relative;
-    border-style: solid;
-    border-width: 1px;
-    width: 100%;
-    height: 10%;
+.nav{
+    background-color: rgb(128, 128, 128);
 }
 
-#middle{
-    top: 2%;
-    position: relative;
-    width: 100%;
-    height: 65%;
+.section1{
+    display: flex;
 }
 
-#section{
-    position: relative;
-    border-style: solid;
-    border-width: 1px;
-    height: 49%;
-    width: 49%;
+.section{
+    background-color: rgb(128, 128, 200);
+    flex: 1;
 }
 
-#article{
-    top: 5px;
-    position: relative;
-    border-style: solid;
-    border-width: 1px;
-    height: 49%;
-    width: 49%;
+.article{
+    background-color: rgb(200, 128, 128);
+    flex: 1;
 }
 
-#aside{
-    right: -1px;
-    float: right;
-    position: relative;
-    border-style: solid;
-    border-width: 1px;
-    height: 100%;
-    width: 49%;
+.aside{
+    background-color: rgb(128, 200, 128);
+    flex: 1;
 }
 
-#footer{
-    top: 4%;
-    position: relative;
-    border-style: solid;
-    border-width: 1px;
-    width: 100%;
-    height: 10%;
-}
+.footer{
+    background-color: rgb(96, 96, 96);
+} 
 
 #aboutStyle{
 	font-size: 13px;
