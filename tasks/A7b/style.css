@@ -1,0 +1,16 @@
+.row{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+	font-size: 13px;
+	position:fixed;
+    text-align: center;
+    bottom: 5px;
+    width: 100%;
+}
