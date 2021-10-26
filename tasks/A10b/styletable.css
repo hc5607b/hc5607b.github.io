@@ -1,0 +1,23 @@
+body{
+    padding-left: 5%;
+    background-color: lightcyan;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+	font-size: 13px;
+	position:fixed;
+    text-align: center;
+    bottom: 5px;
+    width: 100%;
+}
+
+table, th, td{
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    text-align: center;
+}
