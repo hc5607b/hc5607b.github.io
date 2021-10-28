@@ -19,7 +19,7 @@ function flash(){
             }else{
                 document.body.style.backgroundColor = colors[getRandomInt(colors.length)];
             }
-            setTimeout(flash, 30);
+            setTimeout(flash, 500);
         }
         else{counter = 0; returnColor();}
     }
