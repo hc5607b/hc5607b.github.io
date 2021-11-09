@@ -11,25 +11,69 @@
     <body>
 
         <div class="mainframe">
-            <div class="headpanel">
-                <header>
+            <header class="header headpanel">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm">
                     <a href="wframe.html"><img src="images/logo.png" alt="logo" class="logoimg"></a>
-                </header>
-                <nav>
-                    <button type="button" class="btnnav">News</button>
-                    <button type="button" class="btnnav">Products</button>
-                    <button type="button" class="btnnav">About</button>
-                </nav>
-            </div>
+                </div>
+                <div class="col-sm">
+                    <input type="text" placeholder="Search" class="searchStyle">
+                </div>
+                <div class="col-sm">
 
-            <div class="content">
 
+                    <div class="container-sm sidebuttons">
+                        
+                        <ul>
+                            <li>
+                                <button onclick="window.location.href='login.html'" type="button" class="btn btn-secondary btn-sm btnctrl btnside">Login</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-secondary btn-sm btnctrl btnside">Saved</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-secondary btn-sm btnctrl btnside">Cart</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </header>
+        <nav class="nav navpanel">
+            <ul class="navbtngroup">
+                <li>
+                    <button type="button" class="btn btn-secondary btn-sm btnctrl btnnav">News</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-secondary btn-sm btnctrl btnnav">Products</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-secondary btn-sm btnctrl btnnav">About</button>
+                </li>
+            </ul>
+        </nav>
             
+            <div class="content">
+                <div class="reginbox">
+                    <h1>Register</h1>
+                    <form class="loginform" action="/action_page.php">
+                        <p><input class="logininput" placeholder="Email" type="text" id="mail" name="mail"></p>
+                        <p><input class="logininput" placeholder="Username" type="text" id="username" name="username"></p>
+                        <p><input class="logininput" placeholder="Password" type="password" id="password" name="password"></p>
+                        <p><input class="logininput" placeholder="Password" type="password" id="repassword" name="repassword"></p>
+                        <p>
+                            <input type="checkbox" id="agree" name="agree"style="float: left;">
+                            <label for="agree"style="float: left; margin-top:-6px">  I agree</label>
+                            <input class="btn btn-primary loginbtn" type="submit" value="Register" style="float: right;">
+                        </p>
+                      </form>
+                </div>
+            </div>
         </div>
     
-        <!-- <footer>
+        <footer>
             Leevi Sainio • <a href="https://hc5607b.github.io/" >Home page</a> • <a href="mailto:leevi.sainio@student.laurea.fi">leevi.sainio@student.laurea.fi</a>   • 05.10.2021
-        </footer> -->
+        </footer>
     </body>
 </html>

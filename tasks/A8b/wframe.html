@@ -9,33 +9,58 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
         <div class="mainframe">
-            <div class="headpanel">
-                <header>
-                    <a href="wframe.html"><img src="images/logo.png" alt="logo" class="logoimg"></a>
-
-                    <div class="headerbtnframe">
-                        <button onclick="window.location.href='login.html'" type="button" class="btnctrl">Login</button>
-                        <button type="button" class="btnctrl">Saved</button>
-                        <button type="button" class="btnctrl">Cart</button>
+            <header class="header headpanel">
+                <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="wframe.html"><img src="images/logo.png" alt="logo" class="logoimg"></a>
                     </div>
-                </header>
-                <nav>
-                    <button type="button" class="btnnav">News</button>
-                    <button type="button" class="btnnav">Products</button>
-                    <button type="button" class="btnnav">About</button>
-                </nav>
-            </div>
-
-            <div class="content">
-
-            </div>
-            
-        </div>
+                    <div class="col-sm">
+                        <input type="text" placeholder="Search" class="searchStyle">
+                    </div>
+                    <div class="col-sm">
     
-        <!-- <footer>
+    
+                        <div class="container-sm sidebuttons">
+                            
+                            <ul>
+                                <li>
+                                    <button onclick="window.location.href='login.html'" type="button" class="btn btn-secondary btn-sm btnctrl btnside">Login</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-secondary btn-sm btnctrl btnside">Saved</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-secondary btn-sm btnctrl btnside">Cart</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    
+        <nav class="nav navpanel">
+            <ul class="navbtngroup">
+                <li>
+                    <button type="button" class="btn btn-secondary btn-sm btnctrl btnnav">News</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-secondary btn-sm btnctrl btnnav">Products</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-secondary btn-sm btnctrl btnnav">About</button>
+                </li>
+            </ul>
+        </nav>
+        
+        <section class="section content">
+            <p>This is assignment 8b</p>
+            It would be nice if here is any content
+        </section></div>
+    
+        <footer>
             Leevi Sainio • <a href="https://hc5607b.github.io/" >Home page</a> • <a href="mailto:leevi.sainio@student.laurea.fi">leevi.sainio@student.laurea.fi</a>   • 05.10.2021
-        </footer> -->
+        </footer>
     </body>
 </html>
